@@ -1,0 +1,4 @@
+---
+dependencies:
+  - role: dotfiles-common-software-role
+  - role: dotfiles-git-role
