@@ -1,0 +1,5 @@
+---
+- src: git+https://github.com/thecjharries/dotfiles-common-software-role.git
+- src: git+https://github.com/thecjharries/dotfiles-package-installer-role.git
+- src: git+https://github.com/thecjharries/dotfiles-git-role.git
+- src: git+https://github.com/thecjharries/dotfiles-repo-installer-role.git
