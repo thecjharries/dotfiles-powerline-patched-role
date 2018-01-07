@@ -1,7 +1,7 @@
 # `dotfiles-role-powerline-patched`
 
 [![Build Status](https://travis-ci.org/thecjharries/dotfiles-role-powerline-patched.svg?branch=master)](https://travis-ci.org/thecjharries/dotfiles-role-powerline-patched)
-[![GitHub release](https://img.shields.io/github/release/thecjharries/dotfiles-role-powerline-patched.svg)](https://github.com/thecjharries/dotfiles-role-powerline-patched)
+[![GitHub tag](https://img.shields.io/github/tag/thecjharries/dotfiles-role-powerline-patched.svg)](https://github.com/thecjharries/dotfiles-role-powerline-patched)
 
 ## Requirements
 
