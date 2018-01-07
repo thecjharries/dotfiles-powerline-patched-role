@@ -16,7 +16,6 @@
   with_items:
     - "{{ local_font_cache }}"
     - "{{ local_fontconfig }}"
-  when: repo_update | changed
   tags:
     - directory
 
@@ -47,7 +46,9 @@
     - install
 
 - name: "Refresh font cache"
-  command: "fc-cache -vf {{ local_font_cache }}"
+  command: "fc-cache -vf"
+  ignore_errors: yes
+  failed_when: no
   when: repo_update | changed
   tags:
     - command
