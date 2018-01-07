@@ -2,7 +2,7 @@
 ---
 - name: "Check powerline-fonts "
   include_role:
-    name: dotfiles-repo-installer-role
+    name: dotfiles-role-repo-installer
   vars:
     remote_url: https://github.com/powerline/fonts.git
     src_path: "{{ powerline_font_src_path }}"
