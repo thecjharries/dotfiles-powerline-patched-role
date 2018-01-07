@@ -1,7 +1,5 @@
 # `dotfiles-role-powerline-patched`
-# `dotfiles-role-powerline-patched`
 
-[![Build Status](https://travis-ci.org/thecjharries/dotfiles-role-powerline-patched.svg?branch=master)](https://travis-ci.org/thecjharries/dotfiles-role-powerline-patched)
 [![Build Status](https://travis-ci.org/thecjharries/dotfiles-role-powerline-patched.svg?branch=master)](https://travis-ci.org/thecjharries/dotfiles-role-powerline-patched)
 
 ## Requirements
@@ -31,12 +29,8 @@ local_fontconfig: "{{ config_dir }}/fontconfig/conf.d"
 ```yml
 ---
 - src: git+https://github.com/thecjharries/dotfiles-role-common-software.git
-- src: git+https://github.com/thecjharries/dotfiles-role-common-software.git
-- src: git+https://github.com/thecjharries/dotfiles-role-package-installer.git
 - src: git+https://github.com/thecjharries/dotfiles-role-package-installer.git
 - src: git+https://github.com/thecjharries/dotfiles-role-git.git
-- src: git+https://github.com/thecjharries/dotfiles-role-git.git
-- src: git+https://github.com/thecjharries/dotfiles-role-repo-installer.git
 - src: git+https://github.com/thecjharries/dotfiles-role-repo-installer.git
 ```
 
@@ -47,7 +41,6 @@ local_fontconfig: "{{ config_dir }}/fontconfig/conf.d"
 - hosts: all
 
   roles:
-    - role: dotfiles-role-powerline-patched
     - role: dotfiles-role-powerline-patched
 ```
 
